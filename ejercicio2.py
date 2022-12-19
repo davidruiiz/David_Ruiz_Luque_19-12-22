@@ -4,7 +4,7 @@
 #simplify("3x-zx+2xy-x") debe devolver "y^2+3x"
 #simplify("-y+x-5yz+3xy-x") debe devolver "-4y^2+2xy"
 
-
+import doctest
 
 def simplify(polinomio):
     #separo los terminos
@@ -67,3 +67,4 @@ def simplify(polinomio):
 
 if __name__=="__main__":
     print(simplify("3x-zx+2xy-x"))
+    doctest.testmod()
