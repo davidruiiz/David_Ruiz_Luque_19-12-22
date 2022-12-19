@@ -8,7 +8,7 @@
 
 #Si la función recibe la cadena "ab1 cd2 ef3 gh4", debe devolver la cadena "ab1 cd2 ef3 gh4".
 
-
+import doctest
 
 def do_math(cadena):
     #separo los numeros
@@ -33,10 +33,11 @@ def do_math(cadena):
     return cadena
     
 
-
+#probamos el código
 if __name__ == '__main__':
     print(do_math("4a 3b 2c 1d"))
     print(do_math("28a 14b 28c"))
+    doctest.testmod()
     
     
 
