@@ -1,3 +1,9 @@
+
+
+#https://github.com/davidruiiz/David_Ruiz_Luque_19-12-22.git
+
+import doctest
+
 class Nonograma:
     def __init__(self, filas, columnas):
         self.filas = filas
@@ -18,4 +24,5 @@ class Nonograma:
         for i in range(len(self.matriz)):
             s += str(self.matriz[i]) + "\n"
         return s
+
 
