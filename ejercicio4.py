@@ -37,6 +37,6 @@ def do_math(cadena):
 if __name__ == '__main__':
     print(do_math("4a 3b 2c 1d"))
     print(do_math("28a 14b 28c"))
-    print(do_math("ab1 cd2 ef3 gh4"))
+    
     
 
